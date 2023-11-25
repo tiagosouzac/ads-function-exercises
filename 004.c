@@ -22,8 +22,7 @@ int main() {
     scanf("%d", &numbers[i]);
   }
 
-  result = count_even_numbers(numbers);
-  printf("São %d números pares\n", result);
+  printf("São %d números pares\n", count_even_numbers(numbers));
 
   return 0;
 }

@@ -5,11 +5,10 @@ int sum(int first_number, int last_number, int ratio) {
 }
 
 int main() {
-  int first_number, last_number, ratio, result;
+  int first_number, last_number, ratio;
   scanf("%d %d %d", &first_number, &last_number, &ratio);
 
-  result = sum(first_number, last_number, ratio);
-  printf("%d\n", result);
+  printf("%d\n", sum(first_number, last_number, ratio));
 
   return 0;
 }
